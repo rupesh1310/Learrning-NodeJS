@@ -7,20 +7,24 @@ server.on("request", (req, res) => {
   //     if (err) console.log(err);
   //     res.end(data);
   //   });
-
   //Solutions 2
+  // const readable = fs.createReadStream("test-file.txt");
+  // readable.on("data", chunk => {
+  //   res.write(chunk);
+  // });
+  // readable.on("end", () => {
+  //   res.end();
+  // });
+  // readable.on("error", err => {
+  //   console.log(err);
+  //   res.statusCode = 500;
+  //   res.end("File not found!");
+  // });
+
+  //Solution 3
   const readable = fs.createReadStream("test-file.txt");
-  readable.on("data", chunk => {
-    res.write(chunk);
-  });
-  readable.on("end", () => {
-    res.end();
-  });
-  readable.on("error", err => {
-    console.log(err);
-    res.statusCode = 500;
-    res.end("File not found!");
-  });
+  readable.pipe(res);
+  // readableSource.pipe(writeableDestination)
 });
 
 server.listen(8000, "127.0.0.1", () => {
