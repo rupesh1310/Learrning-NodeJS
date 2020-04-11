@@ -9,7 +9,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rupesh1310/
+$ git clone git@github.com:rupesh1310/Learrning-NodeJS.git
 
 # Go into the repository
 $ cd filename 
