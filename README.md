@@ -21,7 +21,6 @@ Some of the standout features of the project are:
 3. Vegetable Details
 
 #  :tv: Demonstration of UI
-[
 ### Home Page :
 ![farmHome](https://user-images.githubusercontent.com/58518192/72437738-9c666100-37cd-11ea-92dc-7092f0e93289.png)
 
