@@ -3,31 +3,49 @@
 
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 
-## :wrench: How To Use
+This is a mini project which is Node-Farm. Using node.js file system. 🗽👩‍🌾
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## :rocket: Technologies Used :
+<ul>
+<li><b>html5 </b></li>
+<li><b>css3 </b></li>
+<li><b>Nodejs </b></li>
+<li><b>Expressjs </b></li>
+<li><b>File System </b></li>
+</ul>
 
-```bash
-# Clone this repository
-$ git clone git@github.com:rupesh1310/Learrning-NodeJS.git
-
-# Go into the repository
-$ cd filename 
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
+## :sparkles: Key Features :
+Some of the standout features of the project are:
+1. Multiple choices of farm items
+2. Check out option
+3. Vegetable Details
 
 #  :tv: Demonstration of UI
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
-![](images/4.png)
-![](images/5.png)
-![](images/6.png)
+[
+### Home Page :
+![farmHome](https://user-images.githubusercontent.com/58518192/72437738-9c666100-37cd-11ea-92dc-7092f0e93289.png)
+
+### Checkout Page: 
+![farmDetail](https://user-images.githubusercontent.com/58518192/72437775-b607a880-37cd-11ea-8422-562e395e033a.png)
+
+
+### :wrench: To run this project :
+
+You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
+
+`$ git clone git@github.com:rupesh1310/Learrning-NodeJS.git`
+
+`$ cd node-farm`
+
+Install project dependencies:
+`$ npm install`
+
+Start the app:
+`$ npm start`
+
+#### :zap: Future Updates
+* Enable PWA
+* Leaderboard
 
 <h1 align="center"> ️💚️ Contributors 💚 </h1>
 
